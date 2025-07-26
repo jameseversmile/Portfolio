@@ -1,28 +1,33 @@
 // import React from 'react'
-import Footer from './Components/Footer'
-import Header from './Components/Header'
-import Home from './pages/Home'
-import { BrowserRouter,Route,Routes } from 'react-router-dom'
-import About from './pages/About'
-import Projects from './pages/projects'
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import Home from "./pages/Home";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import About from "./pages/About";
+import Projects from "./pages/projects";
+import bgImage from "./assets/9374655 1.png";
+import Contacts from "./pages/Contacts";
 
 const App = () => {
   return (
-    <div className='max-w-[1028px] mx-auto relative'>
-      
+    <div
+      className="max-w-[1028px] mx-auto relative"
+      style={{ backgroundImage: `url(${bgImage})` }}
+    >
       <div />
       <BrowserRouter>
-      <Header />
-        <Routes >
-          <Route path='/' element={<Home />} />
-          <Route path='/home' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/projects' element={<Projects />} />
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact.me" element={<Contacts />} />
         </Routes>
         <Footer />
       </BrowserRouter>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
