@@ -7,7 +7,6 @@ import { FaReact } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 
-// import React from 'react';
 
 const Home = () => {
   return (

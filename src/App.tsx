@@ -4,15 +4,15 @@ import Header from "./Components/Header";
 import Home from "./pages/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import About from "./pages/About";
-import Projects from "./pages/projects";
-import bgImage from "../src/assets/bg.png";
+import Projects from "../public/projects";
+// import bgImage from "../src/assets/bg.png";
 import Contacts from "./pages/Contacts";
 
 const App = () => {
   return (
     <div
       className="max-w-[1028px] mx-auto relative"
-      style={{ backgroundImage: `url(${bgImage})` }}
+      style={{ backgroundImage: `url(public/bg.png)` }}
     >
       <div />
       <BrowserRouter>

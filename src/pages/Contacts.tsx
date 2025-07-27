@@ -1,10 +1,6 @@
-import myImg from "../assets/myImg.png";
 
-interface ContactsProps {
-  imgSrc?: string;
-}
 
-const Contacts = ({ imgSrc = myImg }: ContactsProps) => {
+const Contacts = () => {
   return (
     <div>
       <h1 className="text-2xl font-bold special-gothic-expanded-one-regular pt-9 flex justify-center">
@@ -38,7 +34,7 @@ const Contacts = ({ imgSrc = myImg }: ContactsProps) => {
         </div >
         <b>Contact me at: devjamesidris@example.com</b>
       </main>
-      <img src={imgSrc} alt="" />
+      <img src='public/myimg.png' alt="" />
     </div>
     </div>
   );
