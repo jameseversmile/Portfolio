@@ -1,4 +1,8 @@
-// import { useState } from "react"
+import Moove from "../assets/moove.png";
+import Piggy from "../assets/piggy.png";
+import PortfolioImg from "../assets/portfolio-img.png";
+import CartImg from "../assets/cartimg.png";
+import Meta from "../assets/Meta.png";
 
 const Projects = () => {
   return (
@@ -10,45 +14,84 @@ const Projects = () => {
         <div className=" py-9 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           <div className="bg-gray-900 border items-center flex flex-col rounded h-72 relative">
             <h2 className="text-white text-lg font-semibold">Project 1</h2>
-            <a className="border w-[80%] h-[40%] rounded m-2" href="https://my-portfolio-efzmu2qfu-james-idris-projects.vercel.app">
-              <img src="src/assets/moove.PNG" className="object-cover w-full h-full rounded" />
+            <a
+              className="border w-[80%] h-[40%] rounded m-2"
+              href="https://my-portfolio-efzmu2qfu-james-idris-projects.vercel.app"
+            >
+              <img src={Moove} className="object-cover w-full h-full rounded" />
             </a>
-            <p className="text-gray-300 montserrat-regular">Description of Project 1</p>
+            <p className="text-gray-300 montserrat-regular">
+              Description of Project 1
+            </p>
           </div>
           <div className="bg-gray-900 border items-center flex flex-col rounded h-72 relative">
             <h2 className="text-white text-lg font-semibold">Project 2</h2>
-            <a className="border w-[80%] h-[40%] rounded m-2" href="https://piggy-clone96james.vercel.app/">
-              <img src="src/assets/piggy.PNG" className="object-cover w-full h-full rounded" />
+            <a
+              className="border w-[80%] h-[40%] rounded m-2"
+              href="https://piggy-clone96james.vercel.app/"
+            >
+              <img src={Piggy} className="object-cover w-full h-full rounded" />
             </a>
-            <p className="text-gray-300 montserrat-regular">Description of Project 1</p>
+            <p className="text-gray-300 montserrat-regular">
+              Description of Project 1
+            </p>
           </div>
           <div className="bg-gray-900 border items-center flex flex-col rounded h-72 relative">
             <h2 className="text-white text-lg font-semibold">Project 3</h2>
-            <a className="border w-[80%] h-[40%] rounded m-2" href="https://my-portfolio-efzmu2qfu-james-idris-projects.vercel.app">
-              <img src="src/assets/portfolio-img.PNG" className="object-cover w-full h-full rounded" />
+            <a
+              className="border w-[80%] h-[40%] rounded m-2"
+              href="https://my-portfolio-efzmu2qfu-james-idris-projects.vercel.app"
+            >
+              <img
+                src={PortfolioImg}
+                className="object-cover w-full h-full rounded"
+              />
             </a>
-            <p className="text-gray-300 montserrat-regular">Description of Project 1</p>
+            <p className="text-gray-300 montserrat-regular">
+              Description of Project 1
+            </p>
           </div>
           <div className="bg-gray-900 border items-center flex flex-col rounded h-72 relative">
             <h2 className="text-white text-lg font-semibold">Project 4</h2>
-            <a className="border w-[80%] h-[40%] rounded m-2" href="https://my-portfolio-efzmu2qfu-james-idris-projects.vercel.app">
-              <img src="src/assets/cartimg.PNG" className="object-cover w-full h-full rounded" />
+            <a
+              className="border w-[80%] h-[40%] rounded m-2"
+              href="https://my-portfolio-efzmu2qfu-james-idris-projects.vercel.app"
+            >
+              <img
+                src={CartImg}
+                className="object-cover w-full h-full rounded"
+              />
             </a>
-            <p className="text-gray-300 montserrat-regular">Description of Project 1</p>
+            <p className="text-gray-300 montserrat-regular">
+              Description of Project 1
+            </p>
           </div>
           <div className="bg-gray-900 border items-center flex flex-col rounded h-72 relative">
             <h2 className="text-white text-lg font-semibold">Project 5</h2>
-            <a className="border w-[80%] h-[40%] rounded m-2" href="https://piggy-clone96james.vercel.app/">
-              <img src="src/assets/meta.PNG" className="object-cover w-full h-full rounded" />
+            <a
+              className="border w-[80%] h-[40%] rounded m-2"
+              href="https://piggy-clone96james.vercel.app/"
+            >
+              <img src={Meta} className="object-cover w-full h-full rounded" />
             </a>
-            <p className="text-gray-300 montserrat-regular">Description of Project 1</p>
+            <p className="text-gray-300 montserrat-regular">
+              Description of Project 1
+            </p>
           </div>
           <div className="bg-gray-900 border items-center flex flex-col rounded h-72 relative">
             <h2 className="text-white text-lg font-semibold">Project 6</h2>
-            <a className="border w-[80%] h-[40%] rounded m-2" href="https://my-portfolio-efzmu2qfu-james-idris-projects.vercel.app">
-              <img src="src/assets/portfolio-img.PNG" className="object-cover w-full h-full rounded" />
+            <a
+              className="border w-[80%] h-[40%] rounded m-2"
+              href="https://my-portfolio-efzmu2qfu-james-idris-projects.vercel.app"
+            >
+              <img
+                src={PortfolioImg}
+                className="object-cover w-full h-full rounded"
+              />
             </a>
-            <p className="text-gray-300 montserrat-regular">Description of Project 1</p>
+            <p className="text-gray-300 montserrat-regular">
+              Description of Project 1
+            </p>
           </div>
         </div>
       </main>
