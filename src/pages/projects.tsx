@@ -1,8 +1,8 @@
-import Moove from "../assets/moove.png";
-import Piggy from "../assets/piggy.png";
-import PortfolioImg from "../assets/portfolio-img.png";
-import CartImg from "../assets/cartimg.png";
-import Meta from "../assets/Meta.png";
+import Moove from "/src/assets/moove.png";
+import Piggy from "/src/assets/piggy.png";
+import PortfolioImg from "/src/assets/portfolio-img.png";
+import CartImg from "/src/assets/cartimg.png";
+import Meta from "/src/assets/meta.png";
 
 const Projects = () => {
   return (

@@ -1,4 +1,4 @@
-import myImg from "../assets/myImg.png";
+import myImg from "/src/assets/myImg.png";
 
 interface ContactsProps {
   imgSrc?: string;

@@ -11,13 +11,7 @@ import { DiMongodb } from "react-icons/di";
 
 const Home = () => {
   return (
-    <div
-      className="h-[calc(80vh-4rem)] text-center items-center flex flex-col justify-center"
-      style={{
-        
-        
-      }}
-    >
+    <div className="h-[calc(80vh-4rem)] text-center items-center flex flex-col justify-center">
       <h4 className="great-vibes-regular text-9xl">James Idris</h4>
       <hr className="border-gray-300 my-2 w-2xs" />
       <p className="montserrat-regular text-md text-gray-600">

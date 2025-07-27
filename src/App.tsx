@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import About from "./pages/About";
 import Projects from "./pages/projects";
-import bgImage from "./assets/9374655 1.png";
+import bgImage from "/src/assets/9374655 1.png";
 import Contacts from "./pages/Contacts";
 
 const App = () => {
