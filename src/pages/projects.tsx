@@ -1,8 +1,8 @@
-import Moove from "/src/assets/moove.png";
-import Piggy from "/src/assets/piggy.png";
-import PortfolioImg from "/src/assets/portfolio-img.png";
-import CartImg from "/src/assets/cartimg.png";
-import Meta from "/src/assets/meta.png";
+import Moove from "../assets/moove.png";
+import Piggy from "../assets/piggy.png";
+import PortfolioImg from "../assets/portfolio-img.png";
+import CartImg from "../assets/cartimg.png";
+import Meta from "../assets/meta.png";
 
 const Projects = () => {
   return (
@@ -11,7 +11,7 @@ const Projects = () => {
         My Projects
       </h1>
       <main>
-        <div className=" py-9 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="py-9 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           <div className="bg-gray-900 border items-center flex flex-col rounded h-72 relative">
             <h2 className="text-white text-lg font-semibold">Project 1</h2>
             <a

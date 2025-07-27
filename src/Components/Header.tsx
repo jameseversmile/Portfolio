@@ -1,5 +1,5 @@
 // import { useState } from 'react'
-import myImg from "/src/assets/myImg.png";
+import myImg from "../assets/myimg.png";
 import { Link } from "react-router-dom"
 
 function Header() {
