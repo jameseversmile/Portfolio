@@ -13,7 +13,7 @@ const Projects = () => {
               className="border w-[80%] h-[40%] rounded m-2"
               href="https://my-portfolio-efzmu2qfu-james-idris-projects.vercel.app"
             >
-              <img src="public/moove.png" className="object-cover w-full h-full rounded" />
+              <img src="/moove.png" className="object-cover w-full h-full rounded" />
             </a>
             <p className="text-gray-300 montserrat-regular">
               Description of Project 1
