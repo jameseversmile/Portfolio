@@ -25,7 +25,7 @@ const Projects = () => {
               className="border w-[80%] h-[40%] rounded m-2"
               href="https://piggy-clone96james.vercel.app/"
             >
-              <img src="public/piggy.png" className="object-cover w-full h-full rounded" />
+              <img src="/piggy.png" className="object-cover w-full h-full rounded" />
             </a>
             <p className="text-gray-300 montserrat-regular">
               Description of Project 1
@@ -38,7 +38,7 @@ const Projects = () => {
               href="https://my-portfolio-efzmu2qfu-james-idris-projects.vercel.app"
             >
               <img
-                src='public/portfolio-img.png'
+                src='/portfolio-img.png'
                 className="object-cover w-full h-full rounded"
               />
             </a>
@@ -53,7 +53,7 @@ const Projects = () => {
               href="https://my-portfolio-efzmu2qfu-james-idris-projects.vercel.app"
             >
               <img
-                src='public/cartimg.png'
+                src='/cartimg.png'
                 className="object-cover w-full h-full rounded"
               />
             </a>
@@ -67,7 +67,7 @@ const Projects = () => {
               className="border w-[80%] h-[40%] rounded m-2"
               href="https://piggy-clone96james.vercel.app/"
             >
-              <img src='public/meta.png' className="object-cover w-full h-full rounded" />
+              <img src='/meta.png' className="object-cover w-full h-full rounded" />
             </a>
             <p className="text-gray-300 montserrat-regular">
               Description of Project 1
@@ -80,7 +80,7 @@ const Projects = () => {
               href="https://my-portfolio-efzmu2qfu-james-idris-projects.vercel.app"
             >
               <img
-                src='public/portfolio-img.png'
+                src='/portfolio-img.png'
                 className="object-cover w-full h-full rounded"
               />
             </a>

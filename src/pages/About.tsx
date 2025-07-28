@@ -20,7 +20,7 @@ const About = () => {
         </p>
         <div className="w-[30%] h-75 border-2 rounded-[100%] bg-white">
           <img
-            src='public/myimg.png'
+            src='/myimg.png'
             alt="Profile"
             className="size-full rounded-full bg-white"
           />

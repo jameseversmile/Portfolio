@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div
       className="max-w-[1028px] mx-auto relative"
-      style={{ backgroundImage: `url(public/bg.png)` }}
+      style={{ backgroundImage: `url(/bg.png)` }}
     >
       <div />
       <BrowserRouter>
