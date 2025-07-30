@@ -78,7 +78,7 @@ const Projects = () => {
             <div className="m-2 text-center text-amber-50">
               <b>Tools Used: <span className="text-blue-500 bg-sky-400 mb-2">Html</span> and <span className="text-blue-500 bg-sky-400">CSS</span>. </b>
               <br />
-              <i>A shopping Cart Page, enjoys building forlearning purpose</i>
+              <i>A shopping Cart Page, enjoys building for learning purpose</i>
             </div>
           </div>
           <div className="bg-gray-900 border items-center flex flex-col rounded h-72 relative">

@@ -18,7 +18,7 @@ const About = () => {
           also enjoy reading tech blogs, contributing to open source projects,
           and participating in online coding communities.
         </p>
-        <div className="w-[300px]  z-10 rounded-[150%] bg-white">
+        <div className="w-[300px]  z-10 rounded-[150%] shadow-blue-950 shadow-2xl bg-white">
           <img
             src='/myimage3.jpg'
             alt="Profile"

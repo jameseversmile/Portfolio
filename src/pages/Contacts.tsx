@@ -2,11 +2,11 @@
 
 const Contacts = () => {
   return (
-    <div>
-      <h1 className="text-2xl font-bold special-gothic-expanded-one-regular pt-9 flex justify-center">
+    <div className="max-[730px]:mx-15">
+      <h1 className="text-2xl font-bold special-gothic-expanded-one-regular py-9 flex justify-center">
         Contact Me
       </h1>
-    <div className="flex items-center justify-center place-content-center ">
+    <div className="flex items-center gap-[10%] justify-center place-content-center max-sm:flex-col">
       <main>
         <h1 className="text-3xl font-bold mb-0 montserrat underline">Let's Connect!</h1>
         <i className="">I'm excited to discuss about your project.</i>
@@ -32,12 +32,13 @@ const Contacts = () => {
             Send Message
           </button>
         </div >
-        <b>Contact me at: devjamesidris@example.com</b>
+        
       </main>
-      <div className="w-[330px] h-auto place-content-center">
-           <img src='/myimage3.png' alt="" />
+      <div className="w-[300px] border-b-3 shadow-blue-950 shadow-2xl h-auto place-content-center max-sm:w-[200px]">
+           <img  src='/myimage3.png' alt="" />
       </div>
     </div>
+    <b className="flex justify-center pt-10">Contact me at: devjamesidris@example.com</b>
     </div>
   );
 };
