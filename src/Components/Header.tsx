@@ -2,7 +2,10 @@
 import { Link } from "react-router-dom"
 
 function Header() {
-
+// const [isOpen, setIsOpen] = useState(false);
+//   const toggleMenu = () => {
+//     setIsOpen(!isOpen);
+//   };
   return (
 
     <div className="bg- max-w-[1028px] mx-auto bg-white py-1 px-20 text-1xl shadow-[0_2px_1px_rgba(0,0,0,0.1)]">

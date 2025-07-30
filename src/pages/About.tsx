@@ -3,11 +3,11 @@
 const About = () => {
   return (
     <div>
-      <h1 className="h-[100%] flex justify-center special-gothic-expanded-one-regular text-2xl my-9">
+      <h1 className="flex justify-center special-gothic-expanded-one-regular text-2xl my-9 ">
         About Me
       </h1>
-      <div className="flex justify-center gap-12 items-center px-10">
-        <p className="montserrat-regular text-md text-gray-600 w-1/2">
+      <div className="flex max-sm:flex-col-reverse justify-center gap-12 items-center px-10">
+        <p className="montserrat-regular text-gray-600 w-1/2 max-sm:w-full ">
           Hi, I'm James Idris, a Full Stack Software Developer. I have a passion
           for creating dynamic and responsive web applications. I enjoy working
           with the latest technologies and frameworks to deliver high-quality
@@ -18,11 +18,11 @@ const About = () => {
           also enjoy reading tech blogs, contributing to open source projects,
           and participating in online coding communities.
         </p>
-        <div className="w-[30%] h-75 border-2 rounded-[100%] bg-white">
+        <div className="w-[300px]  z-10 rounded-[150%] bg-white">
           <img
-            src='/myimg.png'
+            src='/myimage3.jpg'
             alt="Profile"
-            className="size-full rounded-full bg-white"
+            className="object-fit rounded-full bg-white border-4"
           />
         </div>
       </div>

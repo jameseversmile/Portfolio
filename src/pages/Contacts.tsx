@@ -34,7 +34,9 @@ const Contacts = () => {
         </div >
         <b>Contact me at: devjamesidris@example.com</b>
       </main>
-      <img src='/myimg.png' alt="" />
+      <div className="w-[330px] h-auto place-content-center">
+           <img src='/myimage3.png' alt="" />
+      </div>
     </div>
     </div>
   );
