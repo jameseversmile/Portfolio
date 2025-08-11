@@ -17,7 +17,7 @@ function Header() {
   }, []);
 
   return (
-    <div className="max-w-[1028px] mx-auto bg-white py-1 px-4 md:px-20 text-1xl shadow-[0_2px_1px_rgba(0,0,0,0.1)]">
+    <div className="max-w-[1028px] mx-auto py-1 px-4 md:px-20 text-1xl shadow-[0_2px_1px_rgba(0,0,0,0.1)]">
       <header className="flex justify-between items-center">
         <nav className="flex items-center gap-4">
           <Link className="flex items-center gap-4" to="/about">
