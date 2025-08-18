@@ -14,6 +14,9 @@ const Footer = () => {
            <FaXTwitter href="https://x.com/farmacrypt" />
            <FaFacebookSquare href="https://x.com/farmacrypt" />
         </div>
+        <p className="text-center text-sm text-gray-500">
+          &copy; {new Date().getFullYear()} James Idris Adeiza. All rights reserved.
+        </p>
     </div>
   )
 }

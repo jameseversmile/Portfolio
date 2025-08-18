@@ -11,10 +11,9 @@ import Contacts from "./pages/Contacts";
 const App = () => {
   return (
     <div
-      className="max-w-[1028px] mx-auto relative "
+      className="max-w-[1028px] mx-auto has-[100vh]:"
       style={{ backgroundImage: `url(/bg.png)` }}
     >
-      <div />
       <BrowserRouter>
         <Header />
         <Routes>

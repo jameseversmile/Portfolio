@@ -55,7 +55,7 @@ const Contacts = () => {
         
       </main>
       <div className="w-[300px] border-b-3 shadow-blue-950 shadow-2xl h-auto place-content-center max-sm:w-[200px]">
-           <img  src='/myimage3.png' alt="" />
+           <img  src='/myimage1.jpg' alt="" />
       </div>
     </div>
     <b className="flex justify-center pt-10">Contact me at: devjamesidris@gmail.com</b>
